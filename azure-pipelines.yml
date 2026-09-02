@@ -20,11 +20,4 @@ steps:
     terraform validate
   displayName: 'Terraform Validate'
 
-- script: |
-    dir
-    dir /s *.tf
-  displayName: 'Check Terraform Files'
 
-- script: |
-    terraform plan
-  displayName: 'Terraform Plan'
